@@ -18,8 +18,10 @@ func main() {
 	server.PATCH("/users/:id", controllers.UpdateUser)
 	server.DELETE("/users/:id", controllers.DeleteUser)
 	
-	err := server.Run(":8080")
-	if err != nil {
-			return
-	}
+
+	server.Run()
+	// err := server.Run(":8080")
+	// if err != nil {
+	// 		return
+	// }
 }
