@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/jamesatomc/go-api/controllers"
-	"github.com/jamesatomc/go-api/models"
+	"github.com/jamesatomc/go-api/api/controllers"
+	"github.com/jamesatomc/go-api/api/models"
 )
 
 func main() {
